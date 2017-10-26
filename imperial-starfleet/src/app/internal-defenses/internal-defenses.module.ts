@@ -14,6 +14,11 @@ import { DeathSquareComponent } from './death-square/death-square.component';
     TurretComponent,
     TieFighterComponent,
     DeathSquareComponent
+  ],
+  exports: [
+  	TurretComponent,
+  	TieFighterComponent,
+  	DeathSquareComponent
   ]
 })
 
